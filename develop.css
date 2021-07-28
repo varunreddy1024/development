@@ -1,0 +1,79 @@
+                        .abt-img-1 {
+                            background-image: url('l1.jpg');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            height: 80vh;
+                            width: 100%;
+                        }
+                        
+                        .abt-img-1 div {
+                            background-color: rgba(0, 0, 0, 0.5);
+                            width: 100%;
+                            height: 100%;
+                        }
+                        
+                        .abt-img-1 div h1 {
+                            font-size: 12vh;
+                            font-weight: lighter;
+                        }
+                        
+                        .mis-text {
+                            width: 80vw;
+                        }
+                        
+                        .h-lin {
+                            margin: 8px 10% 0px;
+                            border: 0;
+                            width: 80%;
+                            height: 5px;
+                            background: #fd1a55;
+                            background-image: -webkit-linear-gradient( 0deg, #349cfd, #fd1a55);
+                            background-image: -moz-linear-gradient(0deg, #349cfd, #fd1a55);
+                            background-image: -ms-linear-gradient(0deg, #349cfd, #fd1a55);
+                            background-image: -o-linear-gradient(0deg, #349cfd, #fd1a55);
+                        }
+                        
+                        @media screen and (orientation:portrait) {
+                            .abt-img-1 div h1 {
+                                font-size: 8vh;
+                                font-weight: lighter;
+                            }
+                        }
+                        
+                        @media screen and (orientation:landscape) {}
+                        
+                        @media screen and (max-width:850px) {
+                            .mis-text {
+                                width: 80vw;
+                            }
+                        }
+                        
+                        table {
+                            border: 1px solid #ccc;
+                            border-collapse: collapse;
+                            margin-top: 2vw;
+                            width: 100%;
+                            table-layout: fixed;
+                        }
+                        
+                        table tr {
+                            background-color: #f8f8f8;
+                            border: 1px solid #ddd;
+                            padding: .35em;
+                        }
+                        
+                        table th,
+                        table td {
+                            padding: .625em;
+                            text-align: center;
+                        }
+                        
+                        table th {
+                            font-size: .85em;
+                            letter-spacing: .1em;
+                            text-transform: uppercase;
+                        }
+                        
+                        table tr:hover {
+                            background-color: #241c0a;
+                        }
